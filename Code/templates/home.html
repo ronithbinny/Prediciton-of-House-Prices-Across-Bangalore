@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>House Price Prediction</title>
+  </head>
+  <body>
+    <div class="container">
+
+      <h1>Welcome To House Price Prediction : </h1>
+    <form  method="POST">
+
+        {{ form.hidden_tag() }}
+        {{ form.location.label }} {{form.location}}
+        <br>
+        {{ form.carpet_area.label}} {{form.carpet_area}}
+        <br>
+        {{form.bedroom.label}} {{form.bedroom}}
+        <br>
+        {{ form.bathroom.label }} {{form.bathroom}}
+        <br>
+        {{ form.avaliability.label}} {{form.avaliability}}
+        <br>
+        {{ form.conditon.label }} {{form.conditon}}
+        <br>
+        {{ form.super_area.label}} {{form.super_area}}
+        <br>
+        {{form.year_built.label}} {{form.year_built}}
+        <br>
+        {{ form.floor.label }} {{form.floor}}
+        <br>
+        {{ form.flooring.label}} {{form.flooring}}
+        <br>
+        {{ form.furnishing.label}} {{form.furnishing}}
+        <br>
+        {{ form.parking.label }} {{form.parking}}
+        <br>
+        {{ form.pool.label}} {{form.pool}}
+        <br>
+        {{form.gym.label}} {{form.gym}}
+        <br>
+        {{ form.powerbackup.label }} {{form.powerbackup}}
+        <br>
+        {{ form.jogging.label}} {{form.jogging}}
+        <br>
+        {{ form.clubhouse.label}} {{form.clubhouse}}
+        <br>
+        {{ form.water_harvesting.label }} {{form.water_harvesting}}
+        <br>
+        {{ form.court.label}} {{form.court}}
+        <br>
+        {{ form.submit() }}
+    </form>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
