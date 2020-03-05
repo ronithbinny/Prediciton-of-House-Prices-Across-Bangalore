@@ -1,0 +1,2 @@
+# Prediciton-of-House-Prices-Across-Bangalore
+In this project we create a website which helps users predict the price of property across Bangalore using various Regression and Classification techniques. For this project I have used Python with Numpy, Pandas, BeautifulSoup, Requests, Regex for WebScrapping, Orange for Data Analysis and Preprocessing, Ensembling of different Regression and Classification models for Forecasting the Property Price and Flask for Building WebFramework.
